@@ -159,4 +159,4 @@ xyplot(interval_avg~interval|weekday_type, data = interval_data, horizontal = FA
 
 ![](figure/weekdays-1.png)<!-- -->
 
-As can be seen, the biggest difference is that this person is much more active in the morning when it's a weekday. This is expected since he/she probably only needs to get up early for work during weekdays.
+As can be seen, the biggest difference is that this person is much more active in the morning when it's a weekday. This is expected since he/she probably only needs to get up early for work during weekdays. On the other hand, besides the morning there is increased activity in general throughout the day during weekends. The likely explanation is that this person works a desk job that does not require significant movement at work. Thus the amount of physical activity increases during recreation on weekends.
