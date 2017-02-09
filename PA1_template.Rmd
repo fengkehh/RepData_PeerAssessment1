@@ -14,6 +14,7 @@ opts_chunk$set(echo = TRUE, fig.path = 'figure/')
 
 The data is loaded and preprocessed using the following code:
 ```{R data_loading}
+unzip('activity.zip')
 data <- read.csv('activity.csv')
 
 data$date <- strptime(data$date, format = '%Y-%m-%d', tz = 'GMT')

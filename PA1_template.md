@@ -7,6 +7,7 @@
 The data is loaded and preprocessed using the following code:
 
 ```r
+unzip('activity.zip')
 data <- read.csv('activity.csv')
 
 data$date <- strptime(data$date, format = '%Y-%m-%d', tz = 'GMT')

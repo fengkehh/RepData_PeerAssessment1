@@ -123,7 +123,8 @@ $(document).ready(function () {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <p>The data is loaded and preprocessed using the following code:</p>
-<pre class="r"><code>data &lt;- read.csv('activity.csv')
+<pre class="r"><code>unzip('activity.zip')
+data &lt;- read.csv('activity.csv')
 
 data$date &lt;- strptime(data$date, format = '%Y-%m-%d', tz = 'GMT')</code></pre>
 </div>
